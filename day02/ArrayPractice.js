@@ -6,7 +6,7 @@ console.log("--------------------------------");
 let students = ["Irina", "Maryam", "Daniela", "Andrei"];
 console.log(students);
 console.log(students.length);
-students.push("Ilia", "Julia");//add last
+students.push("Ilia", "Julia"); //add last
 console.log(students);
 
 //students[students.length-3]="Sophy";//change
@@ -19,10 +19,10 @@ console.log(students);
 //console.log(students);
 
 //students.shift();//remove first
-//students.pop();//remove last  
+//students.pop();//remove last
 //console.log(students);
 
 console.log("--------------------------------");
-for (let i=students.length-1; i>=0; i--){
-    console.log(students[i]);
+for (let i = students.length - 1; i >= 0; i--) {
+  console.log(students[i]);
 }
