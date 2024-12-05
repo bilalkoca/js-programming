@@ -86,6 +86,51 @@ for (let i = 1; i < numbers.length; i++) {
   }
 }
 
+//write a programme that can remove all the duplicated elements from the duplicates array.
+
+let duplicates = [1, 2, 3, 4, 4, 5, 5, 6, 7, 7, 8];
+
+let uniqueNumbers = [];
+
+for (let i = 0; i < duplicates.length; i++) {
+  if (!uniqueNumbers.includes(duplicates[i])) {
+    uniqueNumbers.push(duplicates[i]);
+  }
+}
+
+/*
+create a class named Item with the following requirements:
+    Attributes:
+    itemName, price, quantity
+
+    Methods:
+        constructor: initialize all the fields.
+        calculateTotalPrice: return the total cost of the item (price * quantity).
+
+*/
+
+class Item {
+  constructor(itemName, price, quantity) {
+    this.itemName = itemName;
+    this.price = price;
+    this.quantity = quantity;
+  }
+
+  calculateTotalPrice() {
+    return this.price * this.quantity;
+  }
+}
+
+let item1 = new Item("Apple", 1, 5);
+console.log("Total price for item1: ", item1.calculateTotalPrice()); // 5
+
+let item2 = new Item("Banana", 0.5, 10);
+console.log("Total price for item2: ", item2.calculateTotalPrice()); // 5.0
+
+console.log("--------------------------------");
+
+
+
 
 
 
