@@ -33,3 +33,8 @@ let numbers = [1,2,3,4,5,6,7,8,9,10];
 for(let i=numbers.length-1; i>=0; i-- ){
   console.log(numbers[i]);
 }
+
+let nums = [5,8,9,11,15,69,48];
+for(let i=nums.length; i>=0; i--){
+  console.log(nums[i]);
+}
